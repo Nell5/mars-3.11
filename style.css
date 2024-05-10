@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 31px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    display: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    padding: 0px 25px;
+}
+
+ul li:last-child a {
+    color: #2C2830;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    border: 1.5px solid #2C2830;
+    padding: 12px 24px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background: #2D2641;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 165px;
+
+}
+
+.card__description h2 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #fff;
+    margin-top: 63px;
+}
+
+.card__description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.card__description button {
+    width: 146px;
+    height: 40px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    background: #2D2641;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 24px;
+}
+
+.card__image {
+    width: 540px;
+    height: 650px;
+    position: relative;
+    top: 200px;
+}
+
+.r {
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: 165px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 165px;
+}
+
+.card__image2 img {
+    margin-left: 110px;
+}
+
+.e {
+    text-align: center;
+}
+
+.card__image2 h2 {
+    margin-top: 32px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.39px;
+    letter-spacing: -0.3888888955116272px;
+    text-align: left;
+    text-align: center;
+}
+
+.card__image2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #837D88;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.card3 {
+
+    padding: 60px 80px;
+    width: 80%;
+    margin-left: 140px;
+
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("Group\ 6\ Copy.png");
+}
+
+.card__description3 h2 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.7777777910232544px;
+    text-align: left;
+    color: #fff;
+}
+
+.card__description32 button {
+    width: 160px;
+    background: none;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 12px 15px;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 165px;
+}
+
+@media screen and (max-width:576px) {
+
+    header {
+        padding: 10px 18px;
+
+
+    }
+
+    ul {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+        height: 900px;
+        padding: 10px 14px;
+    }
+
+    .card__description {
+        text-align: center;
+    }
+
+.card img{
+ position: static;
+ width: 100%;
+ height: 400px;
+
+}
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card3 {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .card__description3 h2 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: -0.5555555820465088px;
+        text-align: center;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
